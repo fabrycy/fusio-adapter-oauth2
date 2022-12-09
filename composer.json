@@ -1,0 +1,19 @@
+{
+    "name": "fabrycy/fusio-adapter-oauth2",
+    "require": {
+        "php": ">=8.0",
+        "fusio/engine": "^5.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fusio\\Adapter\\Oauth2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Dzierżak",
+            "email": "michal@dzierzak.net"
+        }
+    ]
+}
