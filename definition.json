@@ -1,5 +1,5 @@
 {
     "connectionClass": [
-      "Fusio\\Adapter\\OAuth2\\Connection\\Http2"
+      "Fusio\\Adapter\\OAuth2\\Connection\\OAuth2"
     ]
   }

@@ -15,7 +15,7 @@ use GuzzleHttp;
  * @license http://www.gnu.org/licenses/agpl-3.0
  * @link    https://www.fusio-project.org/
  */
-class Http2 implements ConnectionInterface
+class OAuth2 implements ConnectionInterface
 {
     public function getName(): string
     {
