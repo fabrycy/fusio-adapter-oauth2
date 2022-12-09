@@ -15,7 +15,7 @@ use GuzzleHttp;
  * @license http://www.gnu.org/licenses/agpl-3.0
  * @link    https://www.fusio-project.org/
  */
-class Http implements ConnectionInterface
+class Http2 implements ConnectionInterface
 {
     public function getName(): string
     {
@@ -49,7 +49,7 @@ class Http implements ConnectionInterface
 
     public function configure(BuilderInterface $builder, ElementFactoryInterface $elementFactory): void
     {
-        $builder->add($elementFactory->newInput('url', 'Url', 'text', 'HTTP base url'));
+        $builder->add($elementFactory->newInput('url', 'Url', 'button', 'HTTP base url'));
         $builder->add($elementFactory->newInput('username', 'Username', 'text', 'Optional username for authentication'));
         $builder->add($elementFactory->newInput('password', 'Password', 'text', 'Optional password for authentication'));
         $builder->add($elementFactory->newInput('proxy', 'Proxy', 'text', 'Optional HTTP proxy'));
